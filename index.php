@@ -40,7 +40,7 @@
       <form action="#">
         <div class="flex flex-col items-center">
           <input type="email" placeholder="Tu correo electrónico" class="border-2 border-gray-300 p-2 rounded w-full max-w-md">
-          <button type="submit" class="bg-cotton-candy-400 text-white p-2 rounded mt-4 w-full max-w-md">Suscribirme</button>
+          <button type="submit" class="bg-cotton-candy-300 p-2 rounded mt-4 w-full max-w-md">Suscribirme</button>
         </div>
       </form>
       <p class="text-center mt-8">También puedes seguirnos en nuestras redes sociales:</p>
