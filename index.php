@@ -31,6 +31,15 @@
       }
     }
   </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJ530ZGYKZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CJ530ZGYKZ');
+  </script>
 </head>
 <body class="min-h-screen bg-gray-100 flex flex-col items-center justify-center relative px-4">
     <header class="flex justify-center">
