@@ -79,7 +79,7 @@
             <p class="text-base text-center mb-4 md:text-lg">Todos tenemos una historia que contar, tu marca también, destácate en el mar actual de información y deja tu huella en las personas que te eligen.
             </p>
             <a href="https://wa.me/54XXXXXXXXXXX" target="_blank" class="hover:bg-kobi-500 transition-colors duration-300 font-bold bg-kobi-400 py-2 px-4 rounded">Contemos tu historia</a>
-            <div class="absolute -bottom-14 right-2">
+            <div class="absolute -bottom-12 -right-8 md:right-4">
                 <img class="w-28" src="./img/sunglasses.png" alt="sunglasses">
             </div>
         </div>
