@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Fix Us Consultant</title>
+    <title>Fix Us Consultant | Negocios con propósito</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script>
@@ -45,9 +45,9 @@
     </script>
 </head>
 
-<body class="font-sans text-gray-800 overflow-x-hidden">
+<body class="font-sans text-gray-800">
     <header class="bg-black">
-        <div style="height: 620px;" class="max-w-screen-lg relative px-4 pt-4 pb-12 mx-auto flex flex-col gap-24 lg:px-8">
+        <div class="h-[620px] max-w-screen-lg relative px-4 pt-4 pb-12 mx-auto flex flex-col gap-24 lg:px-8">
             <div class="flex justify-center w-full">
                 <img src="./img/logo_fixus_fondo_oscuro.png" alt="FixUs Logo" style="max-width: 180px;">
             </div>
@@ -56,7 +56,9 @@
                 <p class="text-base mb-4 md:text-lg lg:text-xl xl:text-2xl">Somos una empresa sherpa, acompañamos el desafío más importante de tu vida, llegar a la <span class="text-kobi-300 font-bold">cima</span> de los negocios.</p>
                 <a href="https://wa.me/54XXXXXXXXXXX" target="_blank" class="text-gray-800 bg-kobi-400 hover:bg-kobi-500 transition-colors duration-300 font-bold py-2 px-4 rounded">Contáctanos</a>
             </div>
-            <img src="./img/hero.png" alt="Hero Image" class="absolute -bottom-8 -right-12 w-56 sm:w-64 md:w-80 lg:w-96 object-cover">
+            <div class="absolute -bottom-8 right-0 overflow-hidden w-56 min-h-full sm:w-64 md:w-80 lg:w-96 lg:overflow-visible">
+                <img src="./img/hero.png" alt="Manos extendidas hacía arriba lanzando unos anteojos de sol" class="absolute -bottom-0 -right-12">
+            </div>
             <div class="absolute -top-2 -left-8 w-20 h-40 rounded-lg bg-gradient-to-l from-kobi-300/70 to-gray-400/70 lg:w-28"></div>
             <div class="absolute top-8 right-4 w-8 h-8 rounded-lg bg-gradient-to-r from-kobi-300/70 to-gray-600/70"></div>
             <div class="absolute bottom-12 left-8 w-8 h-8 rounded-lg bg-gradient-to-r from-kobi-300/70 to-gray-600/70"></div>
@@ -79,8 +81,8 @@
             <p class="text-base text-center mb-4 md:text-lg">Todos tenemos una historia que contar, tu marca también, destácate en el mar actual de información y deja tu huella en las personas que te eligen.
             </p>
             <a href="https://wa.me/54XXXXXXXXXXX" target="_blank" class="hover:bg-kobi-500 transition-colors duration-300 font-bold bg-kobi-400 py-2 px-4 rounded">Contemos tu historia</a>
-            <div class="absolute -bottom-12 -right-8 md:right-4">
-                <img class="w-28" src="./img/sunglasses.png" alt="sunglasses">
+            <div class="absolute w-28 h-28 -bottom-12 -right-0 overflow-hidden">
+                <img class="absolute -right-6 md:right-0" src="./img/sunglasses.png" alt="sunglasses">
             </div>
         </div>
     </section>
