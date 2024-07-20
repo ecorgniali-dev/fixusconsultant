@@ -13,14 +13,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         header {
-            background-image: linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url("./img/team-work.webp");
+            background-image: linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url("./img/team-work.jpg");
             background-size: cover;
             background-repeat: no-repeat;
-            background-attachment: fixed;
+            background-attachment: scroll;
         }
         @media (max-width: 767px) {
             header {
-                background-image: linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url("./img/team-work-mobile.webp");
+                background-image: linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url("./img/team-work-mobile.jpg");
+                background-attachment: scroll;
             }
         }
     </style>
