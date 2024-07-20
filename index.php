@@ -11,6 +11,19 @@
     <meta property="og:description" content="Agencia de publicidad digital y desarrollo web. Impulsamos el crecimiento de tu emprendimiento o negocio mediante la publicidad digital y el desarrollo web.">
     <meta property="og:image" content="https://fixusconsultant.com/img/logo_fixus.png">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        header {
+            background-image: linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url("./img/team-work.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        @media (max-width: 767px) {
+            header {
+                background-image: linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url("./img/team-work-mobile.webp");
+            }
+        }
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script>
         tailwind.config = {
@@ -78,16 +91,13 @@
         </div>
     </nav>
 
-    <header class="bg-cover bg-center bg-no-repeat bg-fixed" style="background-image:linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url(img/team-work.jpg)">
-        <div class="min-h-screen max-w-screen-lg relative px-4 pt-4 pb-12 mx-auto flex flex-col justify-center items-center gap-24 lg:px-8">
-            <div class="text-white text-center z-10 flex flex-col justify-between items-center md:w-4/6 md:gap-2 lg:gap-4">
+    <header>
+        <div class="min-h-screen max-w-screen-lg px-4 pt-4 pb-12 mx-auto flex flex-col justify-center items-center gap-24 lg:px-8">
+            <div class="text-white text-center flex flex-col justify-between items-center md:w-4/6 md:gap-2 lg:gap-4">
                 <h1 class="mb-4 text-light">Agencia de publicidad digital y desarrollo web</h1>
                 <p class="text-3xl font-bold leading-snug mb-4 sm:text-4xl md:text-5xl lg:text-6xl">Escalemos en equipo la cima del éxito</p>
                 <p class="text-base mb-4 md:text-lg lg:text-xl xl:text-2xl">Impulsamos el crecimiento de tu emprendimiento o negocio mediante la <span class="text-kobi-300 font-bold">publicidad digital</span> y el <span class="text-kobi-300 font-bold">desarrollo web</span>.</p>
                 <a href="https://wa.me/5493482545262" target="_blank" class="text-gray-800 bg-kobi-400 hover:bg-kobi-500 transition-colors duration-300 font-bold py-2 px-4 rounded">Contáctanos</a>
-            </div>
-            <div class="hidden absolute -bottom-8 right-0 overflow-hidden w-56 min-h-full sm:w-64 md:w-80 lg:w-96 lg:overflow-visible">
-                <img src="./img/hero.png" alt="Manos extendidas hacía arriba lanzando unos anteojos de sol" class="absolute -bottom-0 -right-12">
             </div>
         </div>
     </header>
