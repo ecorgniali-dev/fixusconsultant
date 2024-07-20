@@ -78,7 +78,7 @@
         </div>
     </nav>
 
-    <header class="bg-cover bg-center bg-no-repeat bg-fixed filter-grayscale" style="background-image:linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url(img/team-work.jpg)">
+    <header class="bg-cover bg-center bg-no-repeat bg-fixed" style="background-image:linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url(img/team-work.jpg)">
         <div class="min-h-screen max-w-screen-lg relative px-4 pt-4 pb-12 mx-auto flex flex-col justify-center items-center gap-24 lg:px-8">
             <div class="text-white text-center z-10 flex flex-col justify-between items-center md:w-4/6 md:gap-2 lg:gap-4">
                 <h1 class="mb-4 text-light">Agencia de publicidad digital y desarrollo web</h1>
