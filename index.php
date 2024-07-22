@@ -25,7 +25,8 @@
             }
         }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJ530ZGYKZ"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -47,11 +48,8 @@
                     }
                 }
             }
-        }
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJ530ZGYKZ"></script>
-    <script>
+        };
+
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
@@ -165,19 +163,19 @@
         <h2 class="text-3xl text-center font-bold mb-4">¿Te pasa algo de esto?</h2>
         <div class="max-w-screen-lg mx-auto px-4 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-2">
             <div class="flex space-x-4 p-4 justify-start">
-                <i class="fa-solid fa-caret-right text-3xl text-kobi-500"></i>
+                <i class="fas fa-caret-right text-3xl text-kobi-500"></i>
                 <p class="text-lg xl:text-xl">Las redes no me están dando los resultados que quiero</p>
             </div>
             <div class="flex space-x-4 p-4 justify-start">
-                <i class="fa-solid fa-caret-right text-3xl text-kobi-500"></i>
+                <i class="fas fa-caret-right text-3xl text-kobi-500"></i>
                 <p class="text-lg xl:text-xl">El boca a boca no es suficiente</p>
             </div>
             <div class="flex space-x-4 p-4 justify-start">
-                <i class="fa-solid fa-caret-right text-3xl text-kobi-500"></i>
+                <i class="fas fa-caret-right text-3xl text-kobi-500"></i>
                 <p class="text-lg xl:text-xl">Mi emprendimiento es muy poco conocido</p>
             </div>
             <div class="flex space-x-4 p-4 justify-start">
-                <i class="fa-solid fa-caret-right text-3xl text-kobi-500"></i>
+                <i class="fas fa-caret-right text-3xl text-kobi-500"></i>
                 <p class="text-lg xl:text-xl">Mis ventas no alcanzan a cubrir mis gastos</p>
             </div>
         </div>
@@ -186,7 +184,7 @@
     <section class="py-16">
         <h2 class="text-3xl text-center font-bold mb-4">Te ayudamos a</h2>
         <div class="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-            
+
             <div class="bg-white rounded-lg shadow-md p-6 mb-6">
                 <div class="flex items-center mb-4">
                     <i class="fas fa-search text-2xl text-blue-500 mr-4"></i>
@@ -223,7 +221,7 @@
                     Si las personas abandonan tu página rápidamente o no compran, puede ser por problemas en la experiencia del usuario. Si tu página web no está optimizada, podrías estar perdiendo clientes por un diseño pobre, tiempos de carga lentos o navegación confusa.
                 </p>
             </div>
-        </div>        
+        </div>
     </section>
 
     <section id="contacto" class="max-w-screen-lg px-4 mx-auto text-center py-16 mb-16">
