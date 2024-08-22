@@ -86,7 +86,7 @@
                     <a href="#contacto" class="text-gray-800 bg-kobi-400 hover:bg-kobi-500 transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium">Contacto</a>
                 </div>
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-button" class="text-gray-700 text-3xl hover:text-gray-900 focus:outline-none">
+                    <button id="mobile-menu-button" aria-label="Menu móvil" class="text-gray-700 text-3xl hover:text-gray-900 focus:outline-none">
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
@@ -237,7 +237,7 @@
     <section id="contacto" class="max-w-screen-lg px-4 mx-auto text-center py-16 mb-16">
         <h2 class="text-3xl font-bold mb-4">¿Quieres escalar tu negocio?</h2>
         <p class="text-base mb-4 md:text-lg">Déjanos tu mensaje y te contactaremos a la brevedad.</p>
-        <a href="https://wa.me/5493482545262" target="_blank" class="bg-kobi-500 hover:bg-gray-700 transition-colors duration-300 text-white text-lg font-bold py-2 px-4 rounded inline-flex items-center">
+        <a href="https://wa.me/5493482545262" target="_blank" class="bg-kobi-400 text-gray-800 hover:bg-gray-700 hover:text-white transition-colors duration-300 text-lg font-bold py-2 px-4 rounded inline-flex items-center">
             <i class="fab fa-whatsapp mr-2 text-2xl"></i>
             Escribinos
         </a>
@@ -247,7 +247,7 @@
         <div class="max-w-screen-lg px-4 mx-auto flex flex-col items-center justify-center gap-4">
             <img src="./img/fix_us_23.png" alt="FixUs Logo" style="max-width: 180px;">
             <div>
-                <a href="https://instagram.com/fixusconsultants" target="_blank" class="mx-2">
+                <a href="https://instagram.com/fixusconsultants" aria-label="Visita nuestro perfil de Instagram" target="_blank" class="mx-2">
                     <i class="fab fa-instagram text-gray-700 hover:text-gray-900 transition-colors duration-300 text-4xl"></i>
                 </a>
             </div>
