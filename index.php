@@ -42,6 +42,7 @@
     <link rel="preload" href="./img/team-work.jpg" as="image">
     <link rel="preload" href="./img/team-work-mobile.jpg" as="image">
     <link rel="preload" href="./img/logo_fixus.png" as="image">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         header {
             background-image: linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url("./img/team-work.jpg");
@@ -90,7 +91,6 @@
 
         gtag('config', 'G-CJ530ZGYKZ');
     </script>
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/91b1e2c885.js" crossorigin="anonymous"></script>
 </head>
 
