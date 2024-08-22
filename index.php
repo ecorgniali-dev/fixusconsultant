@@ -37,7 +37,8 @@
         }
         }
     </script>
-    <link rel="preload" href="https://kit.fontawesome.com/91b1e2c885.js" as="script">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://kit.fontawesome.com">
     <link rel="preload" href="./img/team-work.jpg" as="image">
     <link rel="preload" href="./img/team-work-mobile.jpg" as="image">
     <link rel="preload" href="./img/logo_fixus.png" as="image">
@@ -68,7 +69,7 @@
 
         gtag('config', 'G-CJ530ZGYKZ');
     </script>
-    <script src="https://kit.fontawesome.com/91b1e2c885.js" crossorigin="anonymous"></script>
+    <script async src="https://kit.fontawesome.com/91b1e2c885.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="font-sans text-gray-800">
