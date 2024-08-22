@@ -6,11 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Fix Us Consultant | Negocios con propósito</title>
+    <link rel="canonical" href="https://fixusconsultant.com/">
     <meta name="description" content="Agencia de publicidad digital y desarrollo web. Impulsamos el crecimiento de tu emprendimiento o negocio mediante la publicidad digital y el desarrollo web.">
     <meta property="og:title" content="Fix Us Consultant | Negocios con propósito">
     <meta property="og:description" content="Agencia de publicidad digital y desarrollo web. Impulsamos el crecimiento de tu emprendimiento o negocio mediante la publicidad digital y el desarrollo web.">
     <meta property="og:image" content="https://fixusconsultant.com/img/logo_fixus.png">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta property="og:url" content="https://fixusconsultant.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fix Us Consultant | Negocios con propósito">
+    <meta name="twitter:description" content="Agencia de publicidad digital y desarrollo web. Impulsamos el crecimiento de tu emprendimiento o negocio mediante la publicidad digital y el desarrollo web.">
+    <meta name="twitter:image" content="https://fixusconsultant.com/img/logo_fixus.png">
+    <meta name="twitter:url" content="https://fixusconsultant.com/">
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Fix Us Consultant",
+        "description": "Agencia de publicidad digital y desarrollo web. Impulsamos el crecimiento de tu emprendimiento o negocio mediante la publicidad digital y el desarrollo web.",
+        "url": "https://fixusconsultant.com/",
+        "logo": "https://fixusconsultant.com/img/logo_fixus.png",
+        "sameAs": [
+            "https://www.instagram.com/fixusconsultant"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+5493482545262",
+            "contactType": "customer service"
+        }
+        }
+    </script>
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    <link rel="preload" href="https://kit.fontawesome.com/91b1e2c885.js" as="script">
+    <link rel="preload" href="./img/team-work.jpg" as="image">
+    <link rel="preload" href="./img/team-work-mobile.jpg" as="image">
+    <link rel="preload" href="./img/logo_fixus.png" as="image">
     <style>
         header {
             background-image: linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url("./img/team-work.jpg");
@@ -59,6 +90,7 @@
 
         gtag('config', 'G-CJ530ZGYKZ');
     </script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/91b1e2c885.js" crossorigin="anonymous"></script>
 </head>
 
@@ -68,7 +100,7 @@
         <div class="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="/"><img class="h-16 w-auto" src="./img/logo_fixus.png" alt="Logo Fix Us"></a>
+                    <a href="/"><img class="h-16 w-auto" src="./img/logo_fixus.png" alt="Logo Fix Us" width="64" height="64"></a>
                 </div>
                 <div class="hidden md:ml-6 md:flex md:items-center md:space-x-4">
                     <a href="#servicios" class="text-gray-700 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Servicios</a>
