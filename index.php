@@ -37,12 +37,11 @@
         }
         }
     </script>
-    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
     <link rel="preload" href="https://kit.fontawesome.com/91b1e2c885.js" as="script">
     <link rel="preload" href="./img/team-work.jpg" as="image">
     <link rel="preload" href="./img/team-work-mobile.jpg" as="image">
     <link rel="preload" href="./img/logo_fixus.png" as="image">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./output.css" rel="stylesheet">
     <style>
         header {
             background-image: linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6)), url("./img/team-work.jpg");
@@ -60,28 +59,6 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJ530ZGYKZ"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'kobi': {
-                            '50': '#fbf4f7',
-                            '100': '#f8ebf0',
-                            '200': '#f4d6e3',
-                            '300': '#e6a2bd',
-                            '400': '#de88a8',
-                            '500': '#d06489',
-                            '600': '#bd4568',
-                            '700': '#a23452',
-                            '800': '#862e44',
-                            '900': '#712a3d',
-                            '950': '#441320',
-                        },
-                    }
-                }
-            }
-        };
-
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
