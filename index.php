@@ -39,8 +39,8 @@
     </script>
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://kit.fontawesome.com">
-    <link rel="preload" href="./img/team-work.jpg" as="image">
-    <link rel="preload" href="./img/team-work-mobile.jpg" as="image">
+    <link rel="preload" href="./img/team-work.jpg" as="image" media="(min-width: 768px)">
+    <link rel="preload" href="./img/team-work-mobile.jpg" as="image" media="(max-width: 767px)">
     <link rel="preload" href="./img/logo_fixus.png" as="image">
     <link href="./output.css" rel="stylesheet">
     <style>
