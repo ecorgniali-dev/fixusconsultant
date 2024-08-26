@@ -106,7 +106,10 @@
                 <h1 class="mb-4 text-light">Agencia de publicidad digital y desarrollo web</h1>
                 <p class="text-3xl font-bold leading-snug mb-4 sm:text-4xl md:text-5xl lg:text-6xl">Escalemos en equipo la cima del éxito</p>
                 <p class="text-base mb-4 md:text-lg lg:text-xl xl:text-2xl">Impulsamos el crecimiento de tu emprendimiento o negocio mediante la <span class="text-kobi-300 font-bold">publicidad digital</span> y el <span class="text-kobi-300 font-bold">desarrollo web</span>.</p>
-                <a href="https://wa.me/5493482545262" target="_blank" class="text-gray-800 bg-kobi-400 hover:bg-kobi-500 transition-colors duration-300 font-bold py-2 px-4 rounded">Contáctanos</a>
+                <a href="https://wa.me/5493482545262" target="_blank" class="text-gray-800 bg-kobi-400 hover:bg-kobi-500 transition-colors duration-300 font-bold py-2 px-4 rounded flex items-center">
+                    <i class="fas fa-rocket mr-2"></i>
+                    Impulsa tu negocio ahora
+                </a>
             </div>
         </div>
     </header>
@@ -120,14 +123,15 @@
                         <i class="text-6xl text-kobi-500 mb-2 fas fa-ad fa-fw"></i>
                         <h3 class="text-xl font-bold mb-2 xl:text-2xl">Publicidad digital</h3>
                         <p class="text-base mb-4 lg:text-lg">Nuestros servicios de publicidad paga te permiten llegar a tu audiencia objetivo, crear impacto y medir el éxito de tu campaña.</p>
-                        <a href="https://wa.me/5493482545262" target="_blank" class="text-white bg-gray-800 hover:bg-kobi-600 transition-colors duration-300 font-bold py-2 px-4 rounded inline-block">Me interesa</a>
                     </div>
                     <div class="p-4 bg-white shadow-lg rounded-lg">
                         <i class="text-6xl text-kobi-500 mb-2 fas fa-code fa-fw"></i>
                         <h3 class="text-xl font-bold mb-2 xl:text-2xl">Desarrollo web</h3>
                         <p class="text-base mb-4 lg:text-lg">Creamos soluciones web a medida que reflejan la esencia de tu negocio y potencian la imagen de tu marca.</p>
-                        <a href="https://wa.me/5493482545262" target="_blank" class="text-white bg-gray-800 hover:bg-kobi-600 transition-colors duration-300 font-bold py-2 px-4 rounded inline-block">Me interesa</a>
                     </div>
+                </div>
+                <div class="mt-4 md:mt-8">
+                    <a href="https://wa.me/5493482545262" target="_blank" class="text-white bg-gray-800 hover:bg-kobi-600 transition-colors duration-300 font-bold py-2 px-4 rounded inline-block">¡Solicita tu presupuesto gratis!</a>
                 </div>
             </div>
         </div>
@@ -239,13 +243,13 @@
         <p class="text-base mb-4 md:text-lg">Déjanos tu mensaje y te contactaremos a la brevedad.</p>
         <a href="https://wa.me/5493482545262" target="_blank" class="bg-kobi-400 text-gray-800 hover:bg-gray-700 hover:text-white transition-colors duration-300 text-lg font-bold py-2 px-4 rounded inline-flex items-center">
             <i class="fab fa-whatsapp mr-2 text-2xl"></i>
-            Escribinos
+            Hablemos de tu proyecto
         </a>
     </section>
 
     <footer class="bg-gradient-to-b from-gray-100 to-kobi-300 py-16">
         <div class="max-w-screen-lg px-4 mx-auto flex flex-col items-center justify-center gap-4">
-            <img src="./img/fix_us_23.png" alt="FixUs Logo" style="max-width: 180px;">
+            <img src="./img/fix_us_23.png" alt="FixUs Logo" style="max-width: 180px;" loading="lazy">
             <div>
                 <a href="https://instagram.com/fixusconsultants" aria-label="Visita nuestro perfil de Instagram" target="_blank" class="mx-2">
                     <i class="fab fa-instagram text-gray-700 hover:text-gray-900 transition-colors duration-300 text-4xl"></i>
