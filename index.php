@@ -75,7 +75,7 @@
 <body class="font-sans text-gray-800">
 
     <nav class="bg-white sticky top-0 left-0 w-full z-50 shadow-lg">
-        <div class="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-screen-lg mx-auto px-4 lg:px-0">
             <div class="flex justify-between h-16">
                 <div class="flex-shrink-0 flex items-center">
                     <a href="/"><img class="h-16 w-auto" src="./img/logo_fixus.png" alt="Logo Fix Us" width="64" height="64"></a>
@@ -101,7 +101,7 @@
     </nav>
 
     <header>
-        <div class="min-h-screen max-w-screen-lg px-4 pt-4 pb-12 mx-auto flex flex-col justify-center items-center gap-24 lg:px-8">
+        <div class="min-h-screen max-w-screen-lg px-4 mx-auto flex flex-col justify-center items-center gap-24 md:px-0">
             <div class="text-white text-center flex flex-col justify-between items-center md:w-4/6 md:gap-2 lg:gap-4">
                 <h1 class="mb-4 text-light">Agencia de publicidad digital y desarrollo web</h1>
                 <p class="text-3xl font-bold leading-snug mb-4 sm:text-4xl md:text-5xl lg:text-6xl">Escalemos en equipo la cima del éxito</p>
@@ -114,9 +114,9 @@
         </div>
     </header>
 
-    <section id="servicios" class="bg-gray-100 py-16">
+    <section id="servicios" class="bg-gray-100 py-16 px-4 lg:px-0">
         <h2 class="text-3xl text-center font-bold mb-6">Nuestros Servicios</h2>
-        <div class="max-w-screen-lg mx-auto px-4 lg:px-8">
+        <div class="max-w-screen-lg mx-auto">
             <div class="flex flex-col items-center">
                 <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div class="p-4 bg-white shadow-lg rounded-lg">
@@ -137,7 +137,7 @@
         </div>
     </section>
 
-    <section id="beneficios" class="py-16">
+    <section id="beneficios" class="py-16 px-4 lg:px-0">
         <h2 class="text-3xl text-center font-bold mb-6">Beneficios</h2>
         <div class="max-w-screen-lg mx-auto flex flex-col justify-center items-center">
             <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -146,28 +146,28 @@
                         <i class="fas fa-chart-line text-2xl mr-2 text-kobi-500"></i>
                         <h3 class="text-xl font-bold">Más ventas</h3>
                     </div>
-                    <p class="text-base mb-4">Aumenta tus ingresos con nuestras estrategias de marketing personalizadas y efectivas, diseñadas para convertir más visitantes en clientes.</p>
+                    <p class="text-base mb-4 lg:text-lg">Aumenta tus ingresos con nuestras estrategias de marketing personalizadas y efectivas, diseñadas para convertir más visitantes en clientes.</p>
                 </div>
                 <div class="p-4 bg-white shadow-lg rounded-lg">
                     <div class="flex items-center mb-2">
                         <i class="fas fa-users text-2xl mr-2 text-kobi-500"></i>
                         <h3 class="text-xl font-bold">Más clientes</h3>
                     </div>
-                    <p class="text-base mb-4">Amplía tu base de clientes con técnicas probadas que atraen y retienen a usuarios interesados en tus productos o servicios.</p>
+                    <p class="text-base mb-4 lg:text-lg">Amplía tu base de clientes con técnicas probadas que atraen y retienen a usuarios interesados en tus productos o servicios.</p>
                 </div>
                 <div class="p-4 bg-white shadow-lg rounded-lg">
                     <div class="flex items-center mb-2">
                         <i class="fas fa-business-time text-2xl mr-2 text-kobi-500"></i>
                         <h3 class="text-xl font-bold">Crecimiento sostenido</h3>
                     </div>
-                    <p class="text-base mb-4">Impulsa el desarrollo sostenible de tu negocio con soluciones integrales que promueven un crecimiento constante y robusto.</p>
+                    <p class="text-base mb-4 lg:text-lg">Impulsa el desarrollo sostenible de tu negocio con soluciones integrales que promueven un crecimiento constante y robusto.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-kobi-300 py-16 bg-[url('/img/fix_us_19.png')] bg-contain bg-no-repeat bg-left bg-opacity-20">
-        <div class="max-w-screen-lg px-4 py-4 mx-auto flex flex-col justify-center items-center">
+    <section class="bg-kobi-300 bg-opacity-20 py-16">
+        <div class="max-w-screen-lg py-12 px-4 mx-auto flex flex-col justify-center items-center bg-[url('/img/fix_us_19.png')] bg-contain bg-no-repeat bg-left lg:px-0">
             <h2 class="text-3xl text-center font-bold mb-4">Transformando negocios con propósito</h2>
             <p class="text-base text-center mb-4 md:text-lg">¿Qué es una marca sin un propósito? Sabemos que no queremos ser una consultora más, queremos aportar valor a las marcas que trabajan con nosotros y a través de ellas <span class="font-bold">generar un impacto positivo en el mundo.</span></p>
         </div>
@@ -195,7 +195,7 @@
         </div>
     </section>
 
-    <section class="py-16">
+    <section class="py-16 px-4 lg:px-0">
         <h2 class="text-3xl text-center font-bold mb-4">Te ayudamos a</h2>
         <div class="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
 
