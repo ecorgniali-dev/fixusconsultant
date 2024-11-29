@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Fix Us Consultant | Marketing para clínicas odontológicas</title>
     <link rel="preconnect" href="https://kit.fontawesome.com">
+    <link rel="preload" href="./img/landing-odontologia/odontologo_sonriendo.png" as="image">
     <link href="./output.css" rel="stylesheet">
     <script async src="https://kit.fontawesome.com/91b1e2c885.js" crossorigin="anonymous"></script>
 </head>
@@ -25,7 +26,7 @@
                             tus citas con una estrategia exclusiva para clínicas odontológicas.</p>
                         <p class="text-lg mb-8 md:text-left">Nos enfocamos en <span class="font-semibold italic text-kobi-400">aumentar tu cartera de pacientes e ingresos</span>. Tus futuros pacientes ya están en Instagram, Facebook o Google buscando servicios dentales. El mundo digital ha cambiado las reglas: lo de antes ya no basta.</p>
                         <a
-                            href="https://calendly.com/{}/{}" target="_blank" class="inline-block font-semibold bg-kobi-400 hover:bg-kobi-600 text-white shadow-lg  py-3 px-8 rounded text-lg transition duration-300">
+                            href="https://calendly.com/{}/{}" target="_blank" class="inline-block font-semibold bg-kobi-400 hover:bg-kobi-600 text-white shadow-md shadow-kobi-200/50  py-3 px-8 rounded text-lg transition duration-300">
                             Sí, quiero más pacientes
                         </a>
                     </div>
@@ -73,7 +74,7 @@
                     </div>
                     <div class="flex justify-center mt-8">
                         <a
-                            href="https://calendly.com/{}/{}" target="_blank" class="bg-gray-800 hover:bg-kobi-600 shadow-lg text-white font-normal py-3 px-8 rounded text-lg transition duration-300">
+                            href="https://calendly.com/{}/{}" target="_blank" class="bg-gray-800 hover:bg-kobi-600 shadow-lg shadow-gray-500 text-white font-normal py-3 px-8 rounded text-lg transition duration-300">
                             Quiero ver crecer mi clínica
                         </a>
                     </div>
@@ -126,7 +127,7 @@
                     </div>
                     <div class="flex justify-center mt-8">
                         <a
-                            href="https://calendly.com/{}/{}" target="_blank" class="text-white font-normal py-3 px-8 rounded bg-kobi-400 hover:bg-kobi-600 shadow-lg transition duration-300 md:text-lg">
+                            href="https://calendly.com/{}/{}" target="_blank" class="text-white text-center font-normal py-3 px-8 rounded bg-kobi-400 hover:bg-kobi-600 shadow-lg shadow-gray-500 transition duration-300 md:text-lg">
                             Quiero una estrategia que atraiga pacientes
                         </a>
                     </div>
@@ -172,7 +173,7 @@
                     </div>
                     <div class="flex justify-center mt-8">
                         <a
-                            href="https://calendly.com/{}/{}" target="_blank" class="text-white text-base text-center font-normal py-3 px-4 bg-kobi-400 hover:bg-kobi-600 shadow-lg rounded transition duration-300">
+                            href="https://calendly.com/{}/{}" target="_blank" class="text-white text-center font-normal py-3 px-4 bg-kobi-400 hover:bg-kobi-600 shadow-lg shadow-kobi-300/50 rounded transition duration-300">
                             Quiero aprovechar la oferta y atraer más pacientes
                         </a>
                     </div>
@@ -188,7 +189,7 @@
                     </p>
                     <a
                         href="https://calendly.com/{}/{}" target="_blank"
-                        class="bg-kobi-400 hover:bg-kobi-600 text-white font-normal py-3 px-8 rounded text-lg transition duration-300">
+                        class="bg-kobi-400 hover:bg-kobi-600 text-white font-normal py-3 px-8 rounded shadow-md shadow-kobi-300/50 text-lg transition duration-300">
                         Sí, quiero atraer más pacientes
                     </a>
                 </div>
