@@ -37,7 +37,6 @@
         }
         }
     </script>
-    <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://kit.fontawesome.com">
     <link rel="preload" href="./img/team-work.jpg" as="image" media="(min-width: 768px)">
     <link rel="preload" href="./img/team-work-mobile.jpg" as="image" media="(max-width: 767px)">
@@ -57,18 +56,6 @@
             }
         }
     </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJ530ZGYKZ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-CJ530ZGYKZ');
-    </script>
     <script async src="https://kit.fontawesome.com/91b1e2c885.js" crossorigin="anonymous"></script>
 </head>
 
