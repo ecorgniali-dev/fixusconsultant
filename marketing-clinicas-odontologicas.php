@@ -18,20 +18,20 @@
 
         <main>
             <section class="pt-10 text-gray-50 bg-gradient-to-br from-black via-gray-800 to-gray-400 relative overflow-hidden">
-                <div class="max-w-screen-lg mx-auto px-4 flex flex-col gap-8 md:flex-row items-center relative">
-                    <div class="text-center md:w-1/2 md:text-left">
+                <div class="max-w-screen-lg mx-auto px-4 flex flex-col gap-8 md:flex-row items-end relative">
+                    <div class="text-center md:w-2/3 md:min-h-[450px] md:text-left">
                         <h2 class="text-5xl font-bold mb-6 md:text-left">Atrae más pacientes y haz <span class="bg-gradient-to-b from-kobi-100 to-kobi-600 bg-clip-text text-transparent">crecer</span>
                             tu clínica odontológica</h2>
                         <p class="text-lg md:text-left">Capta nuevos pacientes, <span class="font-semibold italic text-kobi-400">fideliza</span> a los actuales y <span class="font-semibold italic text-kobi-400">multiplica</span>
                             tus citas con una estrategia exclusiva para clínicas odontológicas.</p>
                         <p class="text-lg mb-8 md:text-left">Nos enfocamos en <span class="font-semibold italic text-kobi-400">aumentar tu cartera de pacientes e ingresos</span>. Tus futuros pacientes ya están en Instagram, Facebook o Google buscando servicios dentales. El mundo digital ha cambiado las reglas: lo de antes ya no basta.</p>
                         <a
-                            href="https://calendly.com/{}/{}" target="_blank" class="inline-block font-semibold bg-kobi-400 hover:bg-kobi-600 text-white shadow-md shadow-kobi-200/50  py-3 px-8 rounded text-lg transition duration-300">
+                            href="https://calendly.com/{}/{}" target="_blank" class="inline-block font-semibold bg-kobi-400 hover:opacity-80 shadow-md shadow-kobi-200/50  py-3 px-8 rounded text-lg transition duration-300">
                             Sí, quiero más pacientes
                         </a>
                     </div>
-                    <div class="md:w-1/2 relative">
-                        <div class="absolute bg-kobi-600 opacity-10 rounded-full z-0 -bottom-32 -right-20 w-[34rem] h-[34rem] lg:w-[40rem] lg:h-[40rem] xl:-bottom-36"></div>
+                    <div class="md:w-1/3 relative">
+                        <div class="absolute bg-kobi-600 opacity-10 rounded-full z-0 -bottom-32 -right-20 w-[34rem] h-[34rem] md:-bottom-36 md:-right-24"></div>
                         <img src="./img/landing-odontologia/odontologo_sonriendo.png" alt="Odontologo sonriendo" class="relative rounded z-10 w-full h-auto" />
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                     </div>
                     <div class="flex justify-center mt-8">
                         <a
-                            href="https://calendly.com/{}/{}" target="_blank" class="bg-gray-800 hover:bg-kobi-600 shadow-lg shadow-gray-500 text-white font-normal py-3 px-8 rounded text-lg transition duration-300">
+                            href="https://calendly.com/{}/{}" target="_blank" class="bg-gray-800 hover:opacity-80 shadow-lg shadow-gray-500 text-white font-semibold py-3 px-8 rounded text-lg transition duration-300">
                             Quiero ver crecer mi clínica
                         </a>
                     </div>
@@ -127,7 +127,7 @@
                     </div>
                     <div class="flex justify-center mt-8">
                         <a
-                            href="https://calendly.com/{}/{}" target="_blank" class="text-white text-center font-normal py-3 px-8 rounded bg-kobi-400 hover:bg-kobi-600 shadow-lg shadow-gray-500 transition duration-300 md:text-lg">
+                            href="https://calendly.com/{}/{}" target="_blank" class="text-center font-semibold py-3 px-8 rounded bg-kobi-400 hover:bg-opacity-80  shadow-lg shadow-gray-500 transition duration-300 md:text-lg">
                             Quiero una estrategia que atraiga pacientes
                         </a>
                     </div>
@@ -173,7 +173,7 @@
                     </div>
                     <div class="flex justify-center mt-8">
                         <a
-                            href="https://calendly.com/{}/{}" target="_blank" class="text-white text-center font-normal py-3 px-4 bg-kobi-400 hover:bg-kobi-600 shadow-lg shadow-kobi-300/50 rounded transition duration-300">
+                            href="https://calendly.com/{}/{}" target="_blank" class="text-center font-semibold py-3 px-4 bg-kobi-400 hover:bg-opacity-80 shadow-lg shadow-kobi-300/50 rounded transition duration-300 md:text-lg">
                             Quiero aprovechar la oferta y atraer más pacientes
                         </a>
                     </div>
@@ -189,7 +189,7 @@
                     </p>
                     <a
                         href="https://calendly.com/{}/{}" target="_blank"
-                        class="bg-kobi-400 hover:bg-kobi-600 text-white font-normal py-3 px-8 rounded shadow-md shadow-kobi-300/50 text-lg transition duration-300">
+                        class="text-gray-800 bg-kobi-400 hover:bg-opacity-80 font-semibold py-3 px-8 rounded shadow-md shadow-kobi-300/50 transition duration-300 md:text-lg">
                         Sí, quiero atraer más pacientes
                     </a>
                 </div>
