@@ -32,7 +32,7 @@
                     </div>
                     <div class="md:w-1/3 relative">
                         <div class="absolute bg-kobi-600 opacity-10 rounded-full z-0 -bottom-32 -right-20 w-[34rem] h-[34rem] md:-bottom-36 md:-right-24"></div>
-                        <img src="./img/landing-odontologia/odontologo_sonriendo.png" alt="Odontologo sonriendo" class="relative rounded z-10 w-full h-auto aspect-auto" decoding="async" loading="lazy" />
+                        <img src="./img/landing-odontologia/odontologo_sonriendo.png" alt="Odontologo sonriendo" class="relative rounded z-10 w-full h-auto aspect-auto"/>
                     </div>
                 </div>
             </section>
