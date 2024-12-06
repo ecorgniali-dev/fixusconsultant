@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Fix Us Consultant | Marketing para clínicas odontológicas</title>
     <link rel="preconnect" href="https://kit.fontawesome.com">
-    <link rel="preload" href="./img/landing-odontologia/odontologo_sonriendo.webp" as="image">
-    <link href="./output.css" rel="stylesheet">
+    <link rel="preload" href="./img/landing-odontologia/odontologo_sonriendo.webp" as="image" type="image/webp">
+    <link href="./output.css" rel="stylesheet" media="print" onload="this.media='all'">
     <script async src="https://kit.fontawesome.com/91b1e2c885.js" crossorigin="anonymous"></script>
 </head>
 
