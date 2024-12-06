@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Fix Us Consultant | Marketing para clínicas odontológicas</title>
     <link rel="preconnect" href="https://kit.fontawesome.com">
-    <link rel="preload" href="./img/landing-odontologia/odontologo_sonriendo.png" as="image">
+    <link rel="preload" href="./img/landing-odontologia/odontologo_sonriendo.webp" as="image">
     <link href="./output.css" rel="stylesheet">
     <script async src="https://kit.fontawesome.com/91b1e2c885.js" crossorigin="anonymous"></script>
 </head>
@@ -32,7 +32,7 @@
                     </div>
                     <div class="md:w-1/3 relative">
                         <div class="absolute bg-kobi-600 opacity-10 rounded-full z-0 -bottom-32 -right-20 w-[34rem] h-[34rem] md:-bottom-36 md:-right-24"></div>
-                        <img src="./img/landing-odontologia/odontologo_sonriendo.png" alt="Odontologo sonriendo" class="relative rounded z-10 w-full h-auto aspect-auto"/>
+                        <img src="./img/landing-odontologia/odontologo_sonriendo.webp" alt="Odontologo sonriendo" class="relative rounded z-10 w-full h-auto aspect-auto"/>
                     </div>
                 </div>
             </section>
@@ -91,22 +91,22 @@
                             [
                                 'title' => "Estrategia de Contenidos",
                                 'description' => "Análisis a fondo de tu público y creación de un calendario de contenido que refleje la profesionalidad y calidad de tus servicios dentales.",
-                                'image' => "./img/landing-odontologia/marketing-strategy.jpg"
+                                'image' => "./img/landing-odontologia/marketing-strategy.webp"
                             ],
                             [
                                 'title' => "Creación de Contenido Mensual",
                                 'description' => "Posts visuales que captan la atención, reels informativos sobre tratamientos dentales y carruseles educativos que fidelizan a tus pacientes.",
-                                'image' => "./img/landing-odontologia/social-media-marketing.jpg"
+                                'image' => "./img/landing-odontologia/social-media-marketing.webp"
                             ],
                             [
                                 'title' => "Estrategia de Publicidad",
                                 'description' => "Segmentación avanzada para atraer pacientes locales y aumentar las reservas de consultas.",
-                                'image' => "./img/landing-odontologia/segmentacion.jpg"
+                                'image' => "./img/landing-odontologia/segmentacion.webp"
                             ],
                             [
                                 'title' => "Gestión Mensual de Publicidad",
                                 'description' => "Optimización constante para maximizar los resultados.",
-                                'image' => "./img/landing-odontologia/resultados.jpg"
+                                'image' => "./img/landing-odontologia/resultados.webp"
                             ]
                         ];
                         ?>
