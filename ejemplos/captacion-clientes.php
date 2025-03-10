@@ -113,9 +113,28 @@
                         nunc tellus in sapien. Ut sed nibh at lectus gravida egestas.</p>
                 </details>
             </div>
-            <button class="w-full bg-black text-white py-3 rounded-lg mt-6 hover:bg-gray-800 transition">
-                Call to action
-            </button>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="py-20">
+            <h2 class="text-2xl font-bold mb-6">Contáctanos</h2>
+            <form action="#" method="POST" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Nombre</label>
+                    <input type="text" id="name" name="name" class="mt-1 h-10 block w-full border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" class="mt-1 h-10 block w-full border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" required>
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Mensaje</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" required></textarea>
+                </div>
+                <button type="submit" class="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition">
+                    Enviar
+                </button>
+            </form>
         </section>
 
         <!-- Chat Support -->
